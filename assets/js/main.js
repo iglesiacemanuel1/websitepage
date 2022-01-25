@@ -322,6 +322,9 @@
 					resetForms: true,
 					side: 'right'
 				});
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 
 })(jQuery);

@@ -2486,7 +2486,11 @@ input, select, textarea {
 			width: 100%;
 		}
 
+<<<<<<< HEAD
 			.image.fit.main img {
+=======
+			.image.fit img {
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 				width: 100%;
 			}
 
@@ -2500,6 +2504,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
+<<<<<<< HEAD
 
 /*Slideshow*/
 
@@ -3173,6 +3178,8 @@ ul.faces {
 				}
 
 	}
+=======
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 /* List */
 
 	ol {
@@ -3670,6 +3677,7 @@ ul.faces {
 			padding-bottom: 0.75em;
 		}
 
+<<<<<<< HEAD
 		.spotlight h3 {
 			font-size: 2em;
 			font-weight: 700;
@@ -3679,11 +3687,19 @@ ul.faces {
 
 		.spotlight .image {
 			width: 100%
+=======
+		.spotlight .image {
+			width: calc(66.6666666% - 2.5em);
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 			margin: 0 0 2em 0;
 		}
 
 			.spotlight .image img {
+<<<<<<< HEAD
 				width: 50%;
+=======
+				width: 100%;
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3691,12 +3707,18 @@ ul.faces {
 			.spotlight h2 {
 				font-size: 1.25em;
 			}
+<<<<<<< HEAD
 			.spotlight h3 {
 				font-size: 1em;
 			}
 
 			.spotlight .image img{
 				width: 100%;
+=======
+
+			.spotlight .image {
+				width: calc(66.6666666% - 1.25em);
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 			}
 
 		}
@@ -3711,7 +3733,11 @@ ul.faces {
 					width: 100%;
 				}
 
+<<<<<<< HEAD
 				.spotlight .image img{
+=======
+				.spotlight .image {
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 					width: 100%;
 					margin: 0 0 2em 0;
 				}
@@ -3817,7 +3843,11 @@ ul.faces {
 		.wrapper > .inner {
 			margin: 0 auto;
 			max-width: 90em;
+<<<<<<< HEAD
 			width: 100%;
+=======
+			width: 90%;
+>>>>>>> 46d0416f73c978ce09ef1e26da3508934f9706ab
 		}
 
 		.wrapper + .wrapper {
