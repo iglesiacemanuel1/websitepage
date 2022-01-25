@@ -7,63 +7,74 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" type="image/jpg" href="images/favicon.jpeg"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header" class="alt">
-				<h1><a href="index.html">Iglesia <span>Cristiana Emanuel</span></a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="ministerios.html">Ministerios</a></li>
-						<li><a href="donaciones.html">Donaciones</a></li>
-						<li><a href="envivo.html">En Vivo</a></li>
-						<li><a href="galeria.html">Galeria</a></li>
-						<li><a href="contactos.html">Contactos</a></li>
-					</ul>
-				</nav>
-			</header>
+		<header id="header">
+			<h1><a href="index.html">Iglesia <span>Cristiana Emanuel</span></a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li>
+						<a href="ministerios.html" class="icon solid fa-angle-down">Ministerios</a>
+						<ul>
+							<li><a href="ministerios-caballeros.html">Caballeros</a></li>
+							<li><a href="ministerios-damas.html">Damas</a></li>
+							<li><a href="ministerios-jovenes.html">Jovenes</a></li>
+							<li><a href="ministerios-ninos.html">Niños</a></li>
+							<li><a href="ministerios-escuela-dominical.html">Escuela Domincal</a></li>
+							<li><a href="ministerios-evangelismo.html">Evangelismo</a></li>
+						</ul>
+					</li>
+					<li><a href="donaciones.html">Donaciones</a></li>
+					<li><a href="envivo.html">Redes Sociales</a></li>
+					<li><a href="galeria.html">Galeria</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+				</ul>
+			</nav>
+		</header>
 
-
-		<!-- CAMBIAR AQUI PARA ANUNCIOS -->
-
+		<!-- Banner -->
 			<section id="banner">
 				<article>
-					<!--             ESTA LINEA ES PARA LA FOTO.           -->
-					<!-- ASEGURA QUE LA FOTO ESTE EN EL FOLDER DE IMAGENES -->
-					<!--                     ⬇                            -->
 					<img src="images/banner.png" alt="" />
 					<div class="inner">
-						<!--     Aqui cambie el text que quiera poner     -->
-						<h2><a href="#"></a></h2>
-					</div>
-				</article>
-				<article>
-					<!--             ESTA LINEA ES PARA LA FOTO.           -->
-					<!-- ASEGURA QUE LA FOTO ESTE EN EL FOLDER DE IMAGENES -->
-					<!--                     ⬇                            -->
-					<img src="images/horarios.jpg" alt="" />
-					<div class="inner">
-						<!--     Aqui cambie el text que quiera poner     -->
-						<h2><a href="#"></a></h2>
+						<h2><a href="#"> <!---insert text---> </a></h2>
 					</div>
 				</article>
 			</section>
-		<!-- CAMBIAR AQUI PARA ANUNCIOS -->
 
 		<!-- One -->
 			<section id="one" class="wrapper major-pad">
 				<div class="inner">
 					<section class="spotlight">
 						<div class="content">
-							<h2>Bienvenidos a Iglesia Emanuel Nashville!</h2>
-							<p></p>
+							<h2>Bienvenidos a Iglesia Cristiana Emanuel Nashville!</h2>
 						</div>
-						<span class="image"><img src="images/banner.png" alt="" /></span>
 					</section>
-				</div>
+					<div class="inner">
+						<!-- Content -->
+						<div class="content">
+							<video autoplay loop muted width="100%" height="auto"
+							src="https://www.launch2success.com/wp-content/uploads/2020/07/Girl-Opening-Tent.m4v"></video>
+						</div>
+					</div>
+					<hr>
+					<br>
+					<br>
+					<div class="inner">
+						<section class="spotlight">
+							<div class="content">
+								<h3>Anuncios!</h3>
+							</div>
+						</section>
+					</div>
+					<!---------------------------------------------->
+					
 			</section>
+			
 
 		<!-- Two -->
 			<section id="two" class="wrapper content-pad">
@@ -115,61 +126,41 @@
 				</div>
 			</section>
 
-		<!-- Contact -->
+			<!-- Contact -->
 			<section id="contact" class="wrapper split">
 				<div class="inner">
 					<section>
-						<h2>Mandanos un Mensaje</h2>
-						<form method="post" action="#"> <!-- action="mailto:youraddr@domain.tld" -->
-							<div class="row gtr-uniform">
-								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
-									<label for="name">Nombre</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="col-6 col-12-large col-6-medium col-12-xsmall">
-									<label for="email">Su Correo Electronico</label>
-									<input type="email" name="email" id="email" />
-								</div>
-								<div class="col-12">
-									<label for="message">Mensaje</label>
-									<textarea name="message" id="message" rows="5"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Enviar Mensaje" class="primary" /></li>
-										<li><input type="reset" value="Resetear"></li>
-									</ul>
-								</div>
-							</div>
-						</form>
+						<h2>Mandanos un Mensaje o Peticiones!</h2>
+						<a href="mailto:emanuelpeticiones@gmail.com" class="image fit main"><img src="images/mensaje.jpg" alt="" /></a>
 					</section>
 					<section>
-						<h2>Formas de Contactarnos</h2>
-						<ul class="bulleted-icons">
-							<li>
-								<span class="icon-wrapper"><span class="icon solid fa-envelope"></span></span>
-								<h3>Email</h3>
-								<p><a href="#">Correo Electronico</a></p>
-							</li>
-							<li>
-								<span class="icon-wrapper"><span class="icon solid fa-phone"></span></span>
-								<h3>Phone</h3>
-								<p><a href="tel:+16152907336">(615) 290-7336</a></p>
-							</li>
-							<li>
-								<span class="icon-wrapper"><span class="icon brands fa-facebook-f"></span></span>
-								<h3>Facebook</h3>
-								<p><a href="https://www.facebook.com/IglesiaEmanuelNashville/" target="_blank">Facebook</a></p>
-							</li>
-							<li>
-								<span class="icon-wrapper"><span class="icon solid fa-home"></span></span>
-								<h3>Address</h3>
-								<p><a href="https://maps.google.com/?q=3750 Nolensville Pike Nashville, TN, 37211" target="_blank">
-								Direcciones</a>
-								</p>
-							</li>
-						</ul>
-					</section>
+						<section>
+							<h2>Formas de Contactarnos</h2>
+							<ul class="bulleted-icons">
+								<li>
+									<span class="icon-wrapper"><span class="icon solid fa-envelope"></span></span>
+									<h3>Email</h3>
+									<p><a href="mailto:emanuelpeticiones@gmail.com">Correo Electronico</a></p>
+								</li>
+								<li>
+									<span class="icon-wrapper"><span class="icon solid fa-phone"></span></span>
+									<h3>Phone</h3>
+									<p><a href="tel:+16152907336">(615) 290-7336</a></p>
+								</li>
+								<li>
+									<span class="icon-wrapper"><span class="icon brands fa-facebook-f"></span></span>
+									<h3>Facebook</h3>
+									<p><a href="https://www.facebook.com/IglesiaEmanuelNashville/" target="_blank">Facebook</a></p>
+								</li>
+								<li>
+									<span class="icon-wrapper"><span class="icon solid fa-home"></span></span>
+									<h3>Address</h3>
+									<p><a href="https://maps.google.com/?q=3750 Nolensville Pike Nashville, TN, 37211" target="_blank">
+									Direcciones</a>
+									</p>
+								</li>
+							</ul>
+						</section>
 				</div>
 			</section>
 
